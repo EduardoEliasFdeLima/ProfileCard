@@ -3,3 +3,5 @@ Profile card responsivo, com links de redes sociais, foto de perfil e de fundo c
 
 Acesse aqui -> https://eduardoeliasfdelima.github.io/ProfileCard/
 
+Vídeo no meu canal que mostra eu realizando o projeto: https://youtu.be/SRtYnO4osrE
+
