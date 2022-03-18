@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="pesquisa.css">
+  <link rel="stylesheet" href="alfabeto.css">
+  <link rel="shortcut icon" href="https://imgur.com/ITArMU7.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <div class="inner-width">
+      <h1><i class="fa fa-book" aria-hidden="true"></i> Dicionário de Libras</h1>
+      <div class="menu-conjunt">
+          <div class="menu-iconMode c" title="Alterar tema de fundo">
+              <i class="fas fa-moon"></i>
+          </div>
+
+          <div class="menu-icon" title="Menu lateral">
+              <i class="fas fa-align-right"></i>
+          </div>
+
+      </div>
+      
+    </div>
+  </header>
+
+  <div class="navigation-menu">
+    <nav>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="alfabeto.html">Alfabeto</a></li>
+      <li><a href="numeros.html">Números</a></li>
+      <li><a href="#">Adm</a></li>
+      <li><a href="#">Staff</a></li>
+      <li><a href="#">Listar</a></li>
+      <li><a href="#">Sobre</a></li>
+    </nav>
+  </div>
+
+  <div class="titulo"><h1>Alfabeto em libras</h1></div>
+
+  <div class="alfabeto">
+      
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\a.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\b.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\c.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\d.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\e.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\f.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\g.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\h.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\i.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\j.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\k.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\m.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\n.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\o.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\p.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\q.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\r.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\s.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\t.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\u.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\v.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\w.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\x.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\y.jpg" alt=""></div>
+      <div class="letras"><img src="C:\Users\limae\Documents\INFORMÁTICA\PHP\TCC_COLORFULL_SPIN\alfabeto\z.jpg" alt=""></div>
+     
+  </div>
+ 
+
+
+  <script>
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("active");
+      $(".navigation-menu").toggleClass("active");
+      $(".menu-icon i").toggleClass("fa-times");
+    });
+
+
+    $(".c").click(function(){
+      $(".menu-icon").toggleClass("dark");
+      $(".menu-icon i").toggleClass("dark");
+
+      $(".menu-iconMode").toggleClass("dark");
+      $(".menu-iconMode i").toggleClass("dark");
+      $(".menu-iconMode i").toggleClass("bx bxs-sun");
+      
+
+      $(".inner-width").toggleClass("dark");
+      $("header").toggleClass("dark");
+
+      $(".CaixaDePesquisa").toggleClass("dark");
+
+      $(".pesq").toggleClass("dark");
+
+      $(".mic").toggleClass("dark");
+
+      $(".areapesquisa").toggleClass("dark");
+
+
+
+      
+
+      $("body").toggleClass("dark");
+    });
+  </script>
+</body>
+</html>
